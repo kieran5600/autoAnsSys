@@ -1,28 +1,137 @@
+/*DOM css sheet, see mobile.css that address mobile layout */
 
-
-body {
-text-align: center;
-padding: 2em;	
-/*width: 50%;*/
-margin:center;
+h1, header, #header{
+	text-align: center;
+	max-width:100%;
+	height:auto;
+	width: auto;
 }
 
-#B1 {
-margin: 0 auto;
-width: 50%;
-/*padding: 3%*/
+img{
+	box-shadow: 3px 3px 3px #888888;
 }
 
-#headerPic{
-width: 80%
+ #content1Picture{
+	float: left;
 }
-
 p{
-text-align: left;	
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+body{
+	background-color: #cccccc;
+}
+
+#AvayaContent{
+	text-align: center;
+	/*display: block;*/
+	margin: 5px;
+	padding:5px;
+	width: auto;
+	height: auto;*
+	/*max-width: 49%;*/
+	margin:0px;
+	border: 1px solid black;
+	/*float: left;*/
+	width: auto;
+	/*clear: left;*/
+}
+.showcase{
+	background-color: blue;	
+	text-decoration: red;
+	border: 1px solid purple;
+}
+
+#indexContent{
+	/*display:block;*/
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid gray;
+	/*float: right;*/
+	/*clear: right;*/
+	width: auto%;
+	height: auto;
 }
 
 nav{
-	width: 10%;
-	height: 10%;
-	float: right;
+	text-align: center;
+	font-size: 1.3em;
+	/*border: 15px solid yellow;*/
+}
+
+#content1{
+	width: 85%;
+	height: auto;
+	background-color: white;
+	border: 1px solid black;
+    width: auto;
+    height: auto;
+    padding: .2em;
+    box-shadow: 10px 10px 5px #888888;
+    margin: 25px;
+}
+
+ul #navLi{
+	padding:.1em;
+	background-color: white;
+}
+ul li{
+	font-family: "Times New Roman", Times, serif;
+	margin: 3px;
+	display: inline;
+	border: 1px solid black;
+}
+
+.contact{
+	margin-left: 5%;
+	margin-right: 5%;
+	border: 2px solid #e6b800;
+}
+
+li{
+	font-family: "Times New Roman", Times, serif;
+}
+ol{
+	display: block;
+	padding:10px;
+    list-style-type: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+
+#contentPicture{
+	display: block;
+	padding: 15px;
+	/*text-align: center;*/
+	margin-top: 1.2em;
+	float:left;
+}
+#footerWrapped{
+
+	text-align: center;
+	display: block;
+	border: 1px solid black;
+	margin-bottom: 3em;	
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: white;
+    box-shadow: 10px 10px 5px #888888;
+    width: 85%;
+    /*height: 5em;*/
+    float: left;
+}
+
+#footer{
+
+	/*float: left;*/
+	text-align: center;
+
+}
+
+b{
+	text-decoration: underline;
 }
