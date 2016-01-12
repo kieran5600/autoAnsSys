@@ -4,7 +4,9 @@ h1, header, #header{
 	text-align: center;
 	max-width:100%;
 	height:auto;
-	width: auto;
+	width: auto;    
+	border-radius: 20px;
+
 }
 
 img{
@@ -43,7 +45,8 @@ body{
 }
 
 #indexContent{
-	border-top: 1px solid black;
+	/*border-radius: 25px;*/
+	/*border-top: 1px solid black;*/
 	text-align: left;	
 	background-color: white;
 	margin-top:1em;
