@@ -1,0 +1,78 @@
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+h1{
+	text-align: center;
+	  animation-duration: 4.5s;
+  	  animation-name: bounceIn;
+    /*box-shadow: 10px 10px 10px  #888888;*/
+}
+
+#header{
+    box-shadow: 10px 10px 10px  #888888;
+	border-radius: 20px;
+}
+#beam{
+
+}
+
+hr{
+	margin: 1em;
+}
+span{
+	color: black;
+	font-size: 1em;
+	font-weight: bold;
+	font-family: Helvetica;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px black;
+}
+#footerWrapped{
+	text-align: center;
+}
+body {
+  height: 100px;
+  /*background-color:#8c8773;*/
+  background-color: silver;
+  /*background-image: url(/pictures/small_steps.png);*/
+  background-image:
+    linear-gradient(
+      to right,
+      blue,
+      white 10%
+    );
+}
+
+#indexContent{
+    box-shadow: 10px 10px 10px  #888888;
+    width: 60%;
+    /*text-align: center;	*/
+    margin-left: 17%;
+    padding: 2em;
+}
+
+#contentPicture{
+	float: left;
+	background-color: white;
+	padding: 15px ;
+	margin: 14px;
+    box-shadow: 10px 10px 10px  #888888;
+
+}
+#AvayaContent{
+	margin: 2em;
+	text-align: center;
+	height: auto;
+	text-align: center;
+}
