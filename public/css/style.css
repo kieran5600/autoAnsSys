@@ -1,7 +1,8 @@
 /*/*/*DOM css sheet*/
 
 h1	{
-	text-align: center;
+	float: center;
+	/*text-align: center;*/
 	max-width:100%;
 	height:auto;
 	width: auto;    
@@ -32,7 +33,8 @@ body{
 }
 
 #AvayaContent{
-	text-align: center;
+	float: center;
+	/*text-align: center;*/
 	margin: 5px;
 	padding:5px;
 	width: auto;
