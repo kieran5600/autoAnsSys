@@ -17,6 +17,8 @@
 
 
 h1{
+  /*width: 90%;*/
+  /*margin-left: 8%;*/
 	float: center;
 	text-align: center;
 	  animation-delay: 1s;
@@ -26,7 +28,7 @@ h1{
 }
 
 #header{
-    box-shadow: 10px 10px 10px  #888888;
+    box-shadow: 9px 9px 9px  #888888;
 	border-radius: 20px;
 }
 
@@ -35,7 +37,7 @@ h1{
 .demo
 {
 	float: left;
-    margin: 30px auto;
+    margin: 15px auto;
     background-color: #FFFFFF;
     border-radius: 5px;
     width: 150px;
@@ -130,16 +132,22 @@ body {
     );
 }
 
+#info{
+  text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+
+}
+
 #indexContent{
     box-shadow: 10px 10px 10px  #888888;
-    width: 60%;
-    /*text-align: center;	*/
-    margin-left: 17%;
-    padding: 2em;
+    width: 70%;
+
+    margin-left: 14%;
+    padding: 0em;
 }
 
 #content1{
-
+  margin:0em;
     padding-top: 0em;
 }
 
@@ -151,12 +159,14 @@ body {
     box-shadow: 10px 10px 10px  #888888;
 
 }
+
 #AvayaContent{
 	margin: 2em;
 	text-align: center;
 	height: auto;
 	text-align: center;
 }
+
 .text{
     font-family: 'Roboto', sans-serif, times;
     margin: .5em;
@@ -164,6 +174,7 @@ body {
 }
 
 h2{
+      font-size: 1em;
       text-shadow: 1px 1px 1px #000;
       margin-bottom: 0em;
 }
@@ -172,7 +183,8 @@ h2{
 {
    font-weight: bold italic;
    font-size: 1.4em;
-   text-shadow: 1px 1px 1px #000;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+
     padding-left:2em; 
     padding-right:2em;
   
@@ -187,5 +199,6 @@ h2{
     font-size: 1.4em;
 }
 p {
-    padding:.2em;
+    font-size: .8em;
+    padding:0em;
 }

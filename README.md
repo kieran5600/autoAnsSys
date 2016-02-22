@@ -1,4 +1,9 @@
-#Working on learning api, node, routes, file connections.
+
+
+#This is Automated Answering Systems website, build with NPM tools(see package.json), node.js,  I
+#tryed to make the website as simple as possible, with some nice key thrills for the web page. 
+#This is located in the git repository username kieran5600.  
+
 
 # Check Git status
 git status
