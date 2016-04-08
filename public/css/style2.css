@@ -116,7 +116,6 @@ span{
 	text-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px black;
 }
 #footerWrapped{
-	
 	text-align: center;
 }
 body {
@@ -133,22 +132,26 @@ body {
 }
 
 #info{
+    /*border: 1px #ff0000 double ;*/
+    /*border-style: 1em solid red;*/
     background:  #e0e0d1;
     padding:.5em;
     margin-left: 10%;
     float: center;
     width: 80%;
     box-shadow: 5px 5px 5px  #888888;
+
+    /*box-shadow: 5px 5px 5px  #888888;*/
     text-align: left;
-    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px blue;
 
 }
 
 #indexContent{
     box-shadow: 10px 10px 10px  #888888;
-    width: 70%;
+    width: 80%;
 
-    margin-left: 14%;
+    margin-left: 10%;
     padding: 0em;
 }
 
